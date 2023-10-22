@@ -23,4 +23,13 @@
 .px-10 {
   padding-left: 10rem;
   padding-right: 10rem;
+  padding-bottom: 2rem;
+}
+
+.custom-scale {
+  scale: 0.85;
+}
+
+h-custom{
+  height: 10rem;
 }

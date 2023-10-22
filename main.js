@@ -1,8 +1,14 @@
-console.log("Hello World!");
 
-const buyButton = document.getElementById("buyButton");
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
 
-buyButton.addEventListener("click", () => {
-    // code to execute when the button is clicked
-    console.log("Buy button clicked!");
-});
+var buyButton = document.getElementById("buyButton");
+
+if (isMobile()) {
+    console.log("User is on a mobile device");
+    buyButton.classList.add("button-sm");
+} else {
+    console.log("User is on a desktop computer");
+    buyButton.classList.add("button-lg");
+}
