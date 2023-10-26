@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Font1';
+  src: url('./public/font/font1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font2';
+  src: url('./public/font/font2.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font3';
+  src: url('./public/font/font3.ttf') format('truetype');
+}
+
+::-webkit-scrollbar{
+  width: 1.1vh;
+  background: #f6f6ff;
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background: #FE4A49;
+}
+
+::selection {
+  background: #FE4A49;
+  color: #FADA6C;
+}
+
 .navbar {
     background-color: #FE4A49;
 }
