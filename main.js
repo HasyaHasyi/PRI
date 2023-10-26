@@ -12,3 +12,7 @@ if (isMobile()) {
     console.log("User is on a desktop computer");
     buyButton.classList.add("button-lg");
 }
+
+
+
+

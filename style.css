@@ -26,6 +26,13 @@
   padding-bottom: 2rem;
 }
 
+.bluCont {
+  background-color: #007CBE;
+  border-radius: 2rem;
+  padding: 10%;
+  height: 25rem;
+}
+
 .custom-scale {
   scale: 0.85;
 }
