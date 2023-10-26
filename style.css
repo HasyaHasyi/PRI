@@ -1,4 +1,8 @@
 
+@font-face {
+  font-family: 'Bebas-Neue';
+  src: url(./public/Font/BebasNeue-Regular.otf);
+}
 
 ::-webkit-scrollbar{
   width: 1.1vh;
@@ -70,13 +74,15 @@ h-custom{
 
 .ticket-container{
   background-color: #FED766;
-  margin: 5%;
+  margin:2%;
   padding: 5%;
   text-align: center;
   border: #7B4B94 1.5rem solid;
-  max-width: 450px;
+  max-width: 800px;
   border-radius: 4rem;
   color: #7B4B94;
+  justify-content: center;
+  align-items: center;
 }
 
 .in-class {
@@ -88,6 +94,7 @@ h-custom{
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin: 1rem;
+  justify-content: center;
 }
 
 .in-class li {
@@ -100,4 +107,9 @@ h-custom{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.bebas {
+  font-family: 'Bebas-Neue';
+  line-height: 0.7;
 }
