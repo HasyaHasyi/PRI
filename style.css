@@ -1,17 +1,4 @@
-@font-face {
-  font-family: 'Font1';
-  src: url('./public/font/font1.ttf') format('truetype');
-}
 
-@font-face {
-  font-family: 'Font2';
-  src: url('./public/font/font2.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Font3';
-  src: url('./public/font/font3.ttf') format('truetype');
-}
 
 ::-webkit-scrollbar{
   width: 1.1vh;
