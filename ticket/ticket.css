@@ -1,3 +1,7 @@
-*{
-    background-color: #FED766;
+body{
+    background-color: yellow;
+}
+ 
+strong {
+    font-size: large;
 }
