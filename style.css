@@ -49,3 +49,30 @@ h-custom{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.ticket-container{
+  background-color: #FED766;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+  border: #7B4B94 1rem solid;
+  max-width: 450px;
+  border-radius: 4rem;
+  color: #7B4B94;
+}
+
+.in-class {
+  background-color: #7B4B94;
+  color: #FED766;
+  border-radius: 1rem;
+  display: flex;
+  line-height: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+.in-class li {
+  list-style-type: none;
+  text-align: left;
+}
