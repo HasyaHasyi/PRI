@@ -3,8 +3,10 @@ function isMobile() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
+const priImg = document.getElementById("priImg");
 document.addEventListener("DOMContentLoaded", function(event) { 
     actClass(homeButton);
+    gsap.from(priImg, { duration: 2, opacity: 0, y: 100 });
 });
 
 const homeButton = document.getElementById("home-button");
@@ -15,6 +17,7 @@ const aboutButton = document.getElementById("about-button");
 const contactButton = document.getElementById("contact-button");
 const buyButton = document.getElementById("buyButton");
 const buyButtons = document.querySelectorAll('.buy-button');
+
 
 if (isMobile()) {
     buyButton.classList.add("button-sm");
@@ -66,10 +69,6 @@ buyButtons.forEach(function(buyButton) {
         window.location.href = "/ticket";
     });
 });
-
-
-
-
 
 function actClass(button) {
     homeButton.classList.remove("navAct");
