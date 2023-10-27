@@ -1,8 +1,4 @@
-body{
-    background-color: yellow;
-   
-}
- 
-strong {
-    font-size: large;
+.ticket-wow{
+    background-image: url('./public/images/BG TICKET.png');
+    background-size: cover;
 }
