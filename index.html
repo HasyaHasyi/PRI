@@ -30,24 +30,26 @@
       id="navbarNav"
     >
       <li class="nav-item">
-        <a href="#" id="home-button" class="nav-link" aria-current="page"
+        <a href="" id="home-button" class="nav-link" aria-current="page"
           >Home</a
         >
       </li>
       <li class="nav-item">
-        <a href="#" id="ticket-button" class="nav-link">Ticket</a>
+        <a href="#ticket" id="ticket-button" class="nav-link">Ticket</a>
       </li>
       <li class="nav-item">
-        <a href="#" id="venue-button" class="nav-link">Venue</a>
+        <a href="#venue" id="venue-button" class="nav-link">Venue</a>
       </li>
       <li class="nav-item">
-        <a href="#" id="merch-button" class="nav-link disabled">Merchandise</a>
+        <a href="#merch" id="merch-button" class="nav-link disabled"
+          >Merchandise</a
+        >
       </li>
       <li class="nav-item">
-        <a href="#" id="about-button" class="nav-link">About</a>
+        <a href="#about" id="about-button" class="nav-link">About</a>
       </li>
       <li class="nav-item">
-        <a href="#" id="contact-button" class="nav-link">Contact Us</a>
+        <a href="#contact" id="contact-button" class="nav-link">Contact Us</a>
       </li>
     </div>
   </nav>
@@ -63,12 +65,15 @@
           alt="PRI"
           srcset=""
         />
-        <button id="buyButton" class="btn btn-danger">Buy Tickets</button>
+        <button id="buyButton" class="btn buy-button btn-danger">
+          Buy Tickets
+        </button>
       </div>
     </div>
 
     <!-- Div PRI  -->
     <div
+      id="about"
       style="
         height: 38rem;
         display: flex;
@@ -102,43 +107,49 @@
         </p>
       </div>
     </div>
-    <div style="background-color: #fed766">
+    <div style="background-color: #fed766" id="venue">
       <div class="container py-5" style="color: white">
         <div class="row">
           <div class="col-lg">
             <h1 class="bebas" style="font-size: 5rem">When</h1>
             <div class="bluCont">
-              <p>Festival nusantara</p>
-              <p>11-12 November 2023</p>
+              <p class="item bold-und">Festival nusantara</p>
+              <p class="item">11-12 November 2023</p>
               <br />
-              <p>Main event</p>
-              <p>Friday</p>
-              <p>15 December 2023</p>
+              <p class="item bold-und">Main event</p>
+              <p class="item">Friday</p>
+              <p class="item">15 December 2023</p>
             </div>
           </div>
           <div class="col-lg">
             <h1 class="bebas" style="font-size: 5rem">Where</h1>
             <div class="bluCont">
-              <img src="./public/images/DTSO.png" alt="Venue-image" style="width: 20rem; height: 15rem;" />
-              <p>DEWAN TAN SRI OSTHMAN (DTSO) UNIVERSITI UTARA MALAYSIA</p>
+              <img
+                class="container container-fluid"
+                src="./public/images/DTSO.png"
+                alt="Venue-image"
+              />
+              <p class="item">
+                DEWAN TAN SRI OSTHMAN (DTSO) UNIVERSITI UTARA MALAYSIA
+              </p>
             </div>
           </div>
           <div class="col-lg">
             <h1 class="bebas" style="font-size: 5rem">Gate</h1>
             <div class="bluCont">
-              <p>Festival Nusantara</p>
-              <p>11-12 November 2023</p>
+              <p class="item bold-und">Festival Nusantara</p>
+              <p class="item">11-12 November 2023</p>
               <br />
-              <p>Main Event</p>
-              <p>Friday</p>
-              <p>15 December 2023</p>
+              <p class="item bold-und">Main Event</p>
+              <p class="item">Friday</p>
+              <p class="item">15 December 2023</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Div tiket -->
-    <div class="bg-ticket">
+    <div class="bg-ticket" id="ticket">
       <div
         style="padding: 5%"
         class="justify-content-center align-content-center row"
@@ -161,14 +172,16 @@
               <li>Merchandise</li>
             </ul>
             <ul>
-              <li>V</li>
-              <li>V</li>
-              <li>V</li>
-              <li>X</li>
-              <li>X</li>
+              <li>✔</li>
+              <li>✔</li>
+              <li>✔</li>
+              <li>❌</li>
+              <li>❌</li>
             </ul>
           </div>
-          <button id="buyButton" class="btn btn-danger">Buy Tickets</button>
+          <button id="buyButton" class="btn buy-button btn-danger">
+            Buy Tickets
+          </button>
         </div>
         <div class="col-lg ticket-container">
           <div style="display: flex; justify-content: center">
@@ -188,14 +201,16 @@
               <li>Merchandise</li>
             </ul>
             <ul>
-              <li>V</li>
-              <li>V</li>
-              <li>V</li>
-              <li>X</li>
-              <li>X</li>
+              <li>✔</li>
+              <li>✔</li>
+              <li>✔</li>
+              <li>✔</li>
+              <li>✔</li>
             </ul>
           </div>
-          <button id="buyButton" class="btn btn-danger">Buy Tickets</button>
+          <button id="buyButton" class="btn buy-button btn-danger">
+            Buy Tickets
+          </button>
         </div>
       </div>
     </div>
@@ -207,5 +222,11 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer></footer>
+  <footer class="contact" id="contact">
+    <p>@Pesta Rakyat Indonesia 2023</p>
+    <div>
+      <p>WhatsApp : +60-xxx-xxx</p>
+    </div>
+    <p>PPI Tenure 2023</p>
+  </footer>
 </html>

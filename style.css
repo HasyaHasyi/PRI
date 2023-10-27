@@ -115,5 +115,28 @@ h-custom{
 
 .bebas {
   font-family: 'Bebas-Neue';
-  line-height: 0.7;
+  line-height: 1;
+}
+
+.item {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.bold-und {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: center;
+  background-color: #FE4A49;
+  color: #ffffff;
+  height: 4rem;
+  line-height:0;
+  font-weight: bold;
 }
